@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Galerie</title>
+	<link href="Galerie.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" type="image/x-icon" href="Werke/logo_02.png">
+</head>
+
+<body>
+	
+
+	
+
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace("active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += "active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>	
+	
+<ul>
+	<li><a href="Galerie.html">Galerie</a></li>
+  <li><a href="Meine_Arbeiten.html">Meine Arbeiten</a></li>
+  <li><a href="index.html">Home</a></li>
+	<img class="logo1" src="Werke/logo_02.png" z-index="103"  alt="logo"/>
+
+		
+</ul> 
+	
+
+<div class="row">
+  <div class="column">
+    <img src="Werke/Galerie/1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="Werke/Galerie/3.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="Werke/Galerie/4.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="Werke/Galerie/5.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+	<div class="column">
+    <img src="Werke/Galerie/6.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+		<div class="column">
+    <img src="Werke/Galerie/7.JPG" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+  </div>
+		<div class="column">
+    <img src="Werke/Galerie/8.JPG" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+  </div>
+		<div class="column">
+    <img src="Werke/Galerie/9.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+  </div>
+		<div class="column">
+    <img src="Werke/Galerie/10.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+  </div>
+		<div class="column">
+    <img src="Werke/Galerie/11.jpg" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+  </div>
+		<div class="column">
+    <img src="Werke/Galerie/12.jpg" style="width:100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+  </div>
+		<div class="column">
+    <img src="Werke/Galerie/13.JPG" style="width:100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+  </div>
+		<div class="column">
+    <img src="Werke/Galerie/14.jpg" style="width:100%" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
+  </div>
+		<div class="column">
+    <img src="Werke/Galerie/15.jpg" style="width:100%" onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
+  </div>
+		<div class="column">
+    <img src="Werke/Galerie/16.jpg" style="width:100%" onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
+  </div>
+		<div class="column">
+    <img src="Werke/Galerie/17.jpg" style="width:100%" onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
+  </div>
+		<div class="column">
+    <img src="Werke/Galerie/18.jpg" style="width:100%" onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
+  </div>
+		<div class="column">
+    <img src="Werke/Galerie/19.JPG" style="width:100%" onclick="openModal();currentSlide(18)" class="hover-shadow cursor">
+  </div>
+
+	<div class="column">
+    <img src="Werke/Galerie/20.jpg" style="width:100%" onclick="openModal();currentSlide(19)" class="hover-shadow cursor">
+  </div>
+		<div class="column">
+    <img src="Werke/Galerie/21.jpg" style="width:100%" onclick="openModal();currentSlide(20)" class="hover-shadow cursor">
+  </div>
+		<div class="column">
+    <img src="Werke/Galerie/22.jpg" style="width:100%" onclick="openModal();currentSlide(21)" class="hover-shadow cursor">
+  </div>
+		<div class="column">
+    <img src="Werke/Galerie/23.JPG" style="width:100%" onclick="openModal();currentSlide(22)" class="hover-shadow cursor">
+  </div>
+		<div class="column">
+    <img src="Werke/Galerie/24.JPG" style="width:100%" onclick="openModal();currentSlide(23)" class="hover-shadow cursor">
+	</div>
+	
+	<div class="column">
+    <img src="Werke/Galerie/25.jpg" style="width:100%" onclick="openModal();currentSlide(24)" class="hover-shadow cursor">
+  </div>
+		
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <img src="Werke/Galerie/1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="Werke/Galerie/3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="Werke/Galerie/4.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <img src="Werke/Galerie/5.jpg" style="width:100%">
+    </div>
+	  
+	  <div class="mySlides">
+      <img src="Werke/Galerie/6.jpg" style="width:100%">
+    </div>
+	 
+	  <div class="mySlides">
+      <img src="Werke/Galerie/7.JPG" style="width:100%">
+    </div>
+	  
+	  <div class="mySlides">
+      <img src="Werke/Galerie/8.JPG" style="width:100%">
+    </div>
+	  
+	  <div class="mySlides">
+      <img src="Werke/Galerie/9.jpg" style="width:100%">
+    </div>
+	  
+	  <div class="mySlides">
+      <img src="Werke/Galerie/10.jpg" style="width:100%">
+    </div>
+	  
+	  <div class="mySlides">
+      <img src="Werke/Galerie/11.jpg" style="width:100%">
+    </div>
+	  
+	  <div class="mySlides">
+      <img src="Werke/Galerie/12.jpg" style="width:100%">
+    </div>
+	  
+	  <div class="mySlides">
+      <img src="Werke/Galerie/13.JPG" style="width:100%">
+    </div>
+	  
+	  <div class="mySlides">
+      <img src="Werke/Galerie/14.jpg" style="width:100%">
+    </div>
+	  
+	  <div class="mySlides">
+      <img src="Werke/Galerie/15.jpg" style="width:100%">
+    </div>
+	  
+	  <div class="mySlides">
+      <img src="Werke/Galerie/16.jpg" style="width:100%">
+    </div>
+	  
+	  <div class="mySlides">
+      <img src="Werke/Galerie/17.jpg" style="width:100%">
+    </div>
+	  
+	  <div class="mySlides">
+      <img src="Werke/Galerie/18.jpg" style="width:100%">
+    </div>
+	  
+	  <div class="mySlides">
+      <img src="Werke/Galerie/19.JPG" style="width:100%">
+    </div>
+	  
+	  <div class="mySlides">
+      <img src="Werke/Galerie/20.jpg" style="width:100%">
+    </div>
+	  
+	  <div class="mySlides">
+      <img src="Werke/Galerie/21.jpg" style="width:100%">
+    </div>
+	  
+	  <div class="mySlides">
+      <img src="Werke/Galerie/22.jpg" style="width:100%">
+    </div>
+	  
+	<div class="mySlides">
+      <img src="Werke/Galerie/23.JPG" style="width:100%">
+    </div>
+	  
+	  <div class="mySlides">
+      <img src="Werke/Galerie/24.JPG" style="width:100%">
+    </div>
+	  
+	 <div class="mySlides">
+      <img src="Werke/Galerie/25.jpg" style="width:100%">
+    </div>
+	  
+	 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	</div>
+	</div>
+	
+	<div class="footer">
+		
+		<p class="copyright"> © made by Yerinnia Martinelli </p>
+	
+	</div>
+	
+
+
+    
+</body>
+</html>

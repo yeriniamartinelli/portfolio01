@@ -1,0 +1,307 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	position:absolute;
+	width:98%;
+	min-width: 1200px;
+
+	height: 100%;
+	
+	background-image: url(Werke/Portrait_Weissfilter_02.png); 
+	
+	background-repeat: no-repeat;
+	background-attachment: fixed;	
+	
+	font-family: Calibri;
+}
+
+ul {
+	position: fixed;
+	z-index: 100;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	height:auto;
+	width:101%;
+	font-size: 1.2em;
+	margin-top: -10px;
+	margin-left: -10px;
+	
+}
+
+li {
+    float: right;
+}
+
+.logo1{
+	
+	width: 2.2%;
+	margin-left: 20px;
+	margin-top: 10px;;
+	float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 30px;
+	right: 10%;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #aed6e2;
+}
+
+.active {
+    background-color: #aed6e2;
+}
+
+#wrap{
+	position: absolute;
+	width:98%;
+	min-width: 1200px;
+}
+
+.logo{ 
+	position:absolute;
+	width: 35%;
+	height: auto;
+	
+	padding-top:3%;
+	left: 32%;
+}
+
+.portfolio{
+	position:absolute;
+ 	width: 60%;
+	height: auto;
+	
+	left:20%;
+	padding-top: 38%;
+}
+
+
+.titel {
+	position:absolute;
+	width: 60%;
+	height: auto;
+
+	padding-top: 65%;
+	left: 3%;
+	
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 300%;
+}
+
+.kamerauno{
+	position:absolute;
+	width: 98%;
+	height: auto;
+
+	padding-top: 75%;
+	left: 2%;
+}
+
+.kommunikation{
+	position:absolute;
+	width: 99%;
+	height: auto;
+
+	padding-top: 92.2%;
+	left: -3%;
+}
+
+.informatik{
+	position:absolute;
+	width: 99%;
+	height: auto;
+
+	padding-top: 140%;
+	left: 3%;
+}
+
+.adrimistration{
+	position:absolute;
+	width: 99%;
+	height: auto;
+
+	padding-top: 190%;
+	left: -1%;
+}
+
+
+.marketing{
+	position:absolute;
+	width: 85%;
+	height: auto;
+
+	padding-top: 195%;
+	left: 15%;
+}
+
+.footer{
+	position: relative;
+   margin-top: 300%;
+   width: 105%;
+	height: auto;
+   background-color: white;
+	opacity: 0.5;
+   color: white;
+   text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.copyright{
+	
+	text-align: center;
+	font-family: Calibri;
+	font-size: 12px;
+	color: black;
+	
+}
+
+h1 {
+	
+	position:absolute;
+	margin-top: 35%;
+	margin-left: 23%;
+	font-size: 160px;
+	font-family:"Britannic Bold";
+	
+}
+
+h2{
+	position: absolute;
+	margin-top: 60%;
+	margin-left: 2%;
+	font-size: 70px;
+	font-family: "Britannic Bold";
+	color: grey;
+	
+}
+
+h3{
+	font-family: "Britannic Bold";
+	font-size: 35px;
+	color: #d29c98;
+	opacity: 100%;
+}
+.Multimedia{
+	
+	position:absolute;
+	margin-top: 83%;
+	margin-left: 15%;
+	background-color:#FFFFFF;
+	opacity: 0.7;
+	font-family: Calibri;
+	font-size: 24px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	width: 36%;
+	
+	
+}
+
+.Kommunikation{
+	
+	position:absolute;
+	margin-top: 122%;
+	margin-left: 47%;
+	background-color:#FFFFFF;
+	opacity: 0.7;
+	font-family: Calibri;
+	font-size: 24px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	width: 36%;
+	
+	
+}
+
+.Informatik{
+	
+	position:absolute;
+	margin-top: 161%;
+	margin-left: 25%;
+	background-color:#FFFFFF;
+	opacity: 0.7;
+	font-family: Calibri;
+	font-size: 24px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	width: 36%;
+	
+	
+}
+
+h4{
+	font-family: "Britannic Bold";
+	font-size: 35px;
+	color:#F8CEC8;
+	opacity: 100%;
+}
+
+h5{
+	font-family: "Britannic Bold";
+	font-size: 35px;
+	color: #badcc8;
+	opacity: 100%;
+}
+
+h6{
+	font-family: "Britannic Bold";
+	font-size: 35px;
+	color: #8dd3aa;
+	opacity: 100%;
+}
+
+.Design{
+	
+	position:absolute;
+	margin-top: 205%;
+	margin-left: 45%;
+	background-color:#FFFFFF;
+	opacity: 0.7;
+	font-family: Calibri;
+	font-size: 24px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	width: 36%;
+	}
+h7{
+	font-family: "Britannic Bold";
+	font-size: 35px;
+	color: #bfe9f3;
+	opacity: 100%;
+}
+
+.Administration{
+	
+	position:absolute;
+	margin-top: 260%;
+	margin-left: 25%;
+	background-color:#FFFFFF;
+	opacity: 0.7;
+	font-family: Calibri;
+	font-size: 24px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	width: 36%;
+	}
+	

@@ -1,0 +1,361 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	position:absolute;
+	width:98vw;
+	min-width: 1200px;
+
+	height: auto;
+	
+	background-image: url(Werke/Portrait_Weissfilter_02.png); 
+	
+	background-repeat: no-repeat;
+	background-attachment: fixed;	
+	
+	font-family: Calibri;
+}
+
+ul {
+	position: fixed;
+	z-index: 100;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	height:auto;
+	width:101%;
+	font-size: 1.2em;
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -20px;
+}
+
+.logo1{
+	
+	width: 2.2%;
+	margin-left: 20px;
+	margin-top: 10px;;
+	float: left;
+}
+
+
+li {
+    float: right;
+	
+}
+
+
+.videos:hover{
+	text-decoration: underline;
+	color:#bfe9f3;
+	font-family: "Britannic Bold";
+}
+
+.illustrationen:hover{
+	text-decoration: underline;
+	color: #d49b98;
+	font-family: "Britannic Bold";
+}
+
+.plakate:hover{
+	text-decoration: underline;
+	color: #badac7;
+	font-family: "Britannic Bold";
+}
+
+.illustrationen{
+	font-family: 'Britannic Bold';
+}
+
+.videos{
+	font-family: 'Britannic Bold';
+}
+
+.plakate{
+	font-family: 'Britannic Bold';
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 30px;
+	right: 10%;
+    text-decoration: none;
+}
+
+
+
+.navigation1 :hover:not(.active) {
+	
+    background-color: #aed6e2;
+}
+	
+
+
+#wrap{
+	position: absolute;
+	width:98%;
+	min-width: 1200px;
+}
+
+.logo{ 
+	position:absolute;
+	width: 45%;
+	height: auto;
+	
+	padding-top:5%;
+	left: 27.5%;
+}
+
+.portfolio{
+	position:absolute;
+ 	width: 60%;
+	height: auto;
+	
+	left:20%;
+	padding-top: 50%;
+}
+
+
+/*Arbeiten*/
+
+.morph{
+	float:left;
+	width: 30%;
+	height: auto;
+	margin-top: 17%;
+	margin-left: 1%;
+	cursor: pointer;
+}
+
+.morph:hover{
+	
+	transform: scale(1.05,1.05)
+}
+
+
+
+.moodboard{
+		float:left;
+
+	width: 30%;
+	height:auto;
+	margin-top: 17%;
+	margin-left:4%;
+	cursor: pointer;
+}
+.moodboard:hover{
+	
+	transform: scale(1.05,1.05)
+}
+
+.butterflyface{
+		float:left;
+
+	width: 30%;
+	height:auto;
+	margin-top: 17%;
+	margin-left:4%;
+	cursor: pointer;
+}
+.butterflyface:hover{
+	
+	transform: scale(1.05,1.05)
+}
+
+.tim{
+			float:left;
+
+	width: 30%;
+	height:auto;
+	margin-top: 7%;
+	margin-left:1%;
+	cursor: pointer;
+}
+.tim:hover{
+	
+	transform: scale(1.05,1.05)
+}
+
+.bart{
+			float:left;
+
+	width: 30%;
+	height:auto;
+	margin-top: 7%;
+	margin-left:4%;
+	cursor: pointer;
+}
+.bart:hover{
+	
+	transform: scale(1.05,1.05)
+}
+
+.regionalmeisterschaft{
+			float:left;
+
+	width: 30%;
+	height:auto;
+	margin-top: 7%;
+	margin-left:4%;
+	cursor: pointer;
+}
+.regionalmeisterschaft:hover{
+	
+	transform: scale(1.05,1.05)
+}
+
+.emission{
+	float:left;
+	width: 30%;
+	height:auto;
+	margin-top: -8%;
+	margin-left:1%;
+	cursor: pointer;
+}
+.emission:hover{
+	
+	transform: scale(1.05,1.05)
+}
+
+.tiefseetaucher{
+	float:left;
+	width: 30%;
+	height:auto;
+	margin-top: -8%;
+	margin-left:4%;
+	cursor: pointer;
+}
+.tiefseetaucher:hover{
+	
+	transform: scale(1.05,1.05);
+}
+
+.plakat{
+	float:left;
+
+	width: 30%;
+	height:auto;
+	margin-top: -8%;
+	margin-left:4%;
+	cursor: pointer;
+}
+.plakat:hover{
+	
+	transform: scale(1.05,1.05);
+}
+
+
+.gefahren{
+	float:left;
+	width: 30%;
+
+	height:auto;
+	margin-top: 8%;
+	margin-left: 1%;
+	cursor: pointer;
+}
+.gefahren:hover{
+	
+	transform: scale(1.05,1.05)
+}
+
+.videoa{
+	float:left;
+
+	width: 28%;
+	height:auto;
+	margin-top: -2.5%;
+	margin-left:4%;
+	cursor: pointer;
+	
+}
+.videoa:hover{
+	
+	transform: scale(1.05,1.05)
+}
+
+.videob{
+	float:left;
+	width: 28%;
+	height:auto;
+	margin-top: -2.5%;
+	margin-left:8%;
+	cursor: pointer;
+	
+}
+.videob:hover{
+	
+	transform: scale(1.05,1.05)
+}
+
+.videob{
+	float:left;
+
+	width: 28%;
+	height:auto;
+	margin-top: -2.5%;
+	margin-left:8%;
+	cursor: pointer;
+}
+.videob:hover{
+	
+	transform: scale(1.05,1.05)
+}
+
+
+.video1{
+	
+	width: 15%;
+	z-index: 80;
+	height: auto;
+	margin-top: 8%;
+	margin-left: 17%;
+}
+
+.video2{
+	
+	width: 15%;
+	z-index: 80;
+	height: auto;
+	margin-top: 8%;
+	margin-left: 20.8%;
+}
+
+
+
+#close{
+	position: fixed;
+	display: none;
+	width: 9%;
+	z-index: 200;
+	margin-top: 4%;
+	margin-left:87%;
+	cursor:pointer;
+}
+
+.footer{
+	position: relative;
+   margin-top: 20%;
+   width: 105%;
+	height: auto;
+   background-color: white;
+	opacity: 0.5;
+   color: white;
+   text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.copyright{
+	
+	text-align: center;
+	font-family: Calibri;
+	font-size: 12px;
+	color: black;
+	
+}
+
+
+
